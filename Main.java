@@ -72,9 +72,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String sentence;
-        //String FileName = args[0];
-        //BufferedReader in = new BufferedReader(new FileReader(FileName));
-        BufferedReader in = new BufferedReader(new FileReader("D:\\test\\opg.txt"));
+        String FileName = args[0];
+        BufferedReader in = new BufferedReader(new FileReader(FileName));
+        //BufferedReader in = new BufferedReader(new FileReader("D:\\test\\opg.txt"));
         String OriginalSentence;
         while((OriginalSentence = in.readLine()) != null){
             sentence = OriginalSentence + '#';
